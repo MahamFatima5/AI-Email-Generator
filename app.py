@@ -20,7 +20,7 @@ from groq import Groq
 
 # The Groq chat model used for generation. Change this single variable
 # if you want to switch to a different currently-supported Groq model.
-GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_MODEL = "openai/gpt-oss-120b"
 
 st.set_page_config(
     page_title="AI Email Generator",
